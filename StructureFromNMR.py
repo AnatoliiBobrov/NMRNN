@@ -7,15 +7,15 @@ from torch.utils.data import Dataset, DataLoader
 import torch.nn as nn
 from datal import load_data, VECTOR_LENGTH, FEATURE_VECTOR_LENGTH, DTYPE, build_molecule, compare_molecules, DEVICE
 
-EPOCHS = 10
+EPOCHS = 300
 VALIDATE_EACH_EPOCHS = 1
-LENGTH = 20 #vector = v24
+LENGTH = 20000 #vector = v24
 TRAINSET, TESTSET, VALIDSET = None, None, None
 TRAIN_SET_LEN, VALID_LEN_SET, TEST_LEN_SET  = 0, 0, 0
 train_size = 0.8
 test_size = 0.5 # part of rest data
 LR = 0.001
-BATCH_SIZE = 2
+BATCH_SIZE = 128
 TEST_MOOD = False
 FILE_NAME = 'datav24_2_.pkl'
 

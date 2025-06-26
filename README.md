@@ -5,3 +5,4 @@
 
 Ссылка на скачивание спектров веществ https://moldb.np-mrd.org/downloads/exports/hmdb/peak_lists_txt/NP-MRD_nmr_peak_lists_NP0100001_NP0150000.zip
 
+Подробное описание в PDF-файле
